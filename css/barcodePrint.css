@@ -1,0 +1,170 @@
+body{
+	font-size: 10px;
+	padding: 0;
+	margin: 0;
+}
+.tms-print-header .tms-btn-print {
+	text-align: center;
+	
+	vertical-align: middle;
+	margin: 20px 0;
+}
+
+.tms-print-header .tms-btn-print .btn-print {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	background-color: #dd424d;
+	font-family: '微软雅黑';
+	font-size: 14px;
+	color: #ffffff;
+	border-radius: 2px;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+.tms-print-container .tms-print-header .tms-btn-print .btn-print i {
+	display: inline-block;
+	background-image: url("../../images/Seller-Center-icon4.png");
+	background-repeat: no-repeat;
+	background-position: -240px -660px;
+	vertical-align: middle;
+	margin-right: 10px;
+	width: 16px;
+	height: 16px;
+}
+.tms-print-body {
+	width: 365px;
+	margin: 0 auto;
+	font-family: Arial,'微软雅黑';
+	font-size: 10px;
+	color:#333333;	
+	padding: 0;
+}
+
+.tms-print-body .tms-print-item-box{
+	padding-top: 2px;
+	width: 365px;
+	height: 298px;
+	margin-bottom: 1px;
+	overflow: hidden;
+}
+
+.tms-print-body .tms-print-item-box table{
+	margin:auto;
+	width: 365px;
+	font-family: Arial,'微软雅黑';
+	font-size: 10px;
+}
+
+.tms-print-body .tms-print-item-box table.tms-print-item{
+	border: solid 1px #333333;
+	margin-top: 40px;
+	vertical-align: middle;
+}
+
+.tms-print-body .tms-print-item-box table.tms-print-item:FIRST-CHILD{
+	margin-top: 0;
+}
+
+.tms-print-body .tms-print-item-box table.tms-print-item tr:FIRST-CHILD td{
+	height: 50px;
+	text-indent: 0;
+}
+
+.tms-print-body .tms-print-item-box table.tms-print-item tr td{
+	border-bottom: solid 1px #333333;
+	border-left: solid 1px #333333;
+	height: 20px;
+	word-wrap:break-word;
+	word-break:break-all;
+}
+
+.tms-print-body .tms-print-item-box table.tms-print-item tr td.title{
+	width: 57px;
+	text-align: left;
+}
+
+.tms-print-body .tms-print-item-box table.tms-print-item tr td.content{
+	width: 123px;
+	text-align: left;
+}
+.tms-print-body .tms-print-item-box table.tms-print-item tr td.colspan4{
+	width: 363px;
+	text-align: left;
+}
+
+.tms-print-body .tms-print-item-box table.tms-print-item tr td.colspan3{
+	width: 308px;
+	text-align: left;
+}
+
+.tms-print-body .tms-print-item-box table.tms-print-item tr td:FIRST-CHILD{
+	border-left: none;
+}
+
+.tms-print-body .tms-print-item-box table.tms-print-item tr:LAST-CHILD td{
+	border-bottom: none;
+	height: 55px;
+}
+
+.tms-print-body .tms-print-item-box table .tms-print-logo{
+	width: 108px;
+	height: 40px;
+	margin-left: 10px;
+}
+
+.tms-print-body .tms-print-item-box table .tms-bar-code{
+	display: inline-block;
+	/* margin-left: 158px; */
+	float: right;
+}
+
+.tms-print-body .tms-print-item-box table .tms-contact-us{
+	
+	display: none;
+	float: right;
+	height: 50px;
+	width: 195px;
+	font-family: Arial,'微软雅黑';
+	font-size: 14px;
+	color: #333333;
+	line-height: 25px;
+}
+
+.tms-print-body .tms-print-item-box table .tms-contact-us span.hot-tel i{
+	margin-right: 5px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../../images/Seller-Center-icon4.png") -180px -900px no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.tms-print-body .tms-print-item-box table .tms-contact-us span.site i{
+	margin-right: 5px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../../images/Seller-Center-icon4.png") 0 -1080px no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.tms-print-body .tms-print-item-box table span.tms-count{
+	margin-right: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	float: right;
+	font-family: Arial,'微软雅黑';
+	font-size: 10px;
+	color: #666666;
+}
+
+.tms-print-body .tms-print-item-box table tr td.customer-info{
+	text-indent: 0;
+	line-height: 20px;
+	padding-left: 10px;
+}
+
+
